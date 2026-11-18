@@ -1,0 +1,22 @@
+
+{
+  "name": "blog-rest-api",
+  "version": "1.0.0",
+  "description": "A RESTful Blog API built using Node.js and Express",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": ["nodejs", "express", "rest-api", "blog"],
+  "author": "Arpita Katake",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
